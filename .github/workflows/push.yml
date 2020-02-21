@@ -1,0 +1,19 @@
+name: Build image
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build image
+        run: docker build -t jekyll .
+
+      - name: Push the image to Docker Hub
+        if: github.ref == 'refs/heads/master'
+        run: |
+          docker login -u ledermann -p ${{ secrets.DOCKER_TOKEN }}
+          docker tag jekyll ledermann/jekyll-base:latest
+          docker push ledermann/jekyll-base:latest
