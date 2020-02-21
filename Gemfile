@@ -9,6 +9,5 @@ group :jekyll_plugins do
   gem 'jekyll-postcss'
   gem 'jekyll-purgecss'
   gem 'jekyll-target-blank'
-  gem 'jekyll-turbolinks'
-  gem 'jekyll-minifier'
+  gem 'jekyll-tidy'
 end
