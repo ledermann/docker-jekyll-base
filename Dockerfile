@@ -21,13 +21,13 @@ RUN bundle config --global frozen 1 && \
 
 #### ONBUILD: Add triggers to the image, executed later while building a child image
 
-# Install Ruby gems (for production only)
+# Install Ruby gems
 ONBUILD COPY Gemfile* /app/
 ONBUILD RUN bundle install -j4 --retry 3
 
+# Install node modules
+ONBUILD COPY package.json yarn.lock /app/
+ONBUILD RUN yarn install
+
 # Copy the whole application folder into the image
 ONBUILD COPY . /app
-
-# Build the site for production
-ONBUILD ENV JEKYLL_ENV production
-ONBUILD RUN bundle exec jekyll build

@@ -23,6 +23,7 @@ Using [Dependabot](https://dependabot.com/), every updated Ruby gem or Node modu
 
 ```Dockerfile
 FROM ledermann/jekyll-base AS Builder
+RUN bundle exec jekyll build
 
 # Production with Nginx
 FROM nginx:stable-alpine
