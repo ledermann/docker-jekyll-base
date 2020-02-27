@@ -9,7 +9,7 @@
     "regenerator-runtime": "^0.13.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.4",
+    "@babel/core": "^7.8.6",
     "@babel/preset-env": "^7.8.4",
     "autoprefixer": "^9.3.1",
     "babel-loader": "^8.0.6",
