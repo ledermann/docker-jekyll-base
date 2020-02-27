@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "dependencies": {
     "core-js": "^3.6.4",
+    "cssnano": "^4.1.10",
+    "instant.page": "^3.0.0",
     "regenerator-runtime": "^0.13.3"
   },
   "devDependencies": {
@@ -13,7 +15,7 @@
     "babel-loader": "^8.0.6",
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
-    "purgecss": "^2.0.6",
+    "purgecss": "^2.1.0",
     "tailwindcss": "^1.2.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
