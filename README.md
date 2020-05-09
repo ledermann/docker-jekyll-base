@@ -11,7 +11,7 @@ This project is the small sister of [DockerRailsBase](https://github.com/lederma
 
 When using the official Ruby image, building a Docker image for a typical Jekyll site requires lots of time for installing dependencies - mainly Ruby gems. This is required every time the site needs to be deployed to production.
 
-I was looking for a way to reduce this time, so I created a base image that contain most of the dependencies used in my sites.
+I was looking for a way to reduce this time, so I created a base image that contains most of the dependencies used in my sites.
 
 
 ### Staying up-to-date
