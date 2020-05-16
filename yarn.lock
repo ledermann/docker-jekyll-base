@@ -2730,10 +2730,10 @@ ini@^1.3.4, ini@^1.3.5:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-instant.page@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/instant.page/-/instant.page-5.0.0.tgz#46c20674906a8678f00c2c97cfb9b63914977cb5"
-  integrity sha512-1/3vauZ3CGXDK2XNwPzJSPi7RLkxZ9vR8gLkgyfu528HQ5B00bZqgRbeRpqTACMq+ZBwzwPR3JmKYLzmOnnyxQ==
+instant.page@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/instant.page/-/instant.page-5.0.1.tgz#f3089be07341a1ba046c96888e52c98d08bbb6eb"
+  integrity sha512-nLcalIz9rplo5L4ISyLh4U5NbtfP50596DolHqOK5wMR14YIhTtuYrzxSV5D45mOPqMdQb2TbAGHc6fzMuUM3Q==
 
 interpret@1.2.0:
   version "1.2.0"
