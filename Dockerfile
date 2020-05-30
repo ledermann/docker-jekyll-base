@@ -1,7 +1,7 @@
 FROM ruby:2.7-alpine
 LABEL maintainer="georg@ledermann.dev"
 
-RUN apk add --update --no-cache \
+RUN apk add --no-cache \
     build-base \
     git \
     nodejs-current \
