@@ -16,7 +16,7 @@
     "postcss-cli": "^7.1.1",
     "postcss-import": "^12.0.1",
     "purgecss": "^2.3.0",
-    "tailwindcss": "^1.7.5",
+    "tailwindcss": "^1.7.6",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
